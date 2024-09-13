@@ -22,4 +22,5 @@ func main() {
 	fmt.Println("v5: ", v5, ";", "typeOf: ", reflect.TypeOf(v5))
 	fmt.Println("v6: ", v6, ";", "typeOf: ", reflect.TypeOf(v6))
 	fmt.Println("v7: ", v7, ";", "typeOf: ", reflect.TypeOf(v7))
+
 }
