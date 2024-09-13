@@ -1,19 +1,19 @@
-package main
+package variables
 
 import (
 	"fmt"
 	"reflect"
 )
 
-func main() {
+func Variables_Datatypes() {
 
 	var v1 bool = true
 	var v2 string = "Hello"
 	var v3 int = 55
 	var v4 float32 = 55.55
-	var v5 float64 = 55.55555555
+	var v5 float64 = 55.55555555 // recommended over float32
 	var v6 complex64 = complex(5, 5)
-	var v7 complex128 = complex(5, 5)
+	var v7 complex128 = complex(5, 5) // recommended over complex64
 
 	fmt.Println("v1: ", v1, ";", "typeOf: ", reflect.TypeOf(v1))
 	fmt.Println("v2: ", v2, ";", "typeOf: ", reflect.TypeOf(v2))

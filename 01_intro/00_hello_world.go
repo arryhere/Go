@@ -1,8 +1,8 @@
-package main
+package intro
 
 import "fmt"
 
-func main() {
+func Intro() {
 	fmt.Println("Hello Go !")
 
 	var value string = "Hello Go ! again"

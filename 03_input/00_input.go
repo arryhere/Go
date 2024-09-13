@@ -1,5 +1,5 @@
-package main
+package input
 
-func main()  {
-	
+func Input() {
+
 }
