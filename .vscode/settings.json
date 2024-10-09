@@ -1,0 +1,69 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.fontSize": 12,
+  "editor.renderWhitespace": "trailing",
+  "editor.rulers": [
+    140
+  ],
+  "editor.suggest.selectionMode": "always",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit",
+    "source.organizeImports": "always"
+  },
+  "editor.formatOnSave": true,
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "type",
+  "workbench.editor.enablePreview": true,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.scrollback": 100000000,
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "python.analysis.typeCheckingMode": "off",
+  "rust-analyzer.linkedProjects": [
+    ".\\Cargo.toml"
+  ],
+  "sqltools.format": {
+    "language": "sql",
+    "linesBetweenQueries": 3,
+    "reservedWordCase": "upper"
+  },
+  "indentRainbow.includedLanguages": [
+    "yaml",
+    "dockercompose"
+  ],
+  "java.settings.url": ".vscode/settings.prefs",
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
