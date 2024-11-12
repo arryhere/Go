@@ -19,7 +19,9 @@ func main() {
 
 	// operators.Shorthand_Operators()
 	// operators.Arithmetic_Operators()
-	operators.Comparison_Operators()
+	// operators.Comparison_Operators()
+	// operators.Logical_Operators()
+	// operators.Address_Operators()
 
 	// conditionals.If_Else()
 
