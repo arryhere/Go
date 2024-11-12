@@ -21,7 +21,7 @@ func main() {
 	// operators.Arithmetic_Operators()
 	// operators.Comparison_Operators()
 	// operators.Logical_Operators()
-	// operators.Address_Operators()
+	operators.Address_Operators()
 
 	// conditionals.If_Else()
 
