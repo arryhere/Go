@@ -2,7 +2,6 @@ package operators
 
 import (
 	"fmt"
-	"log"
 )
 
 func Address_Operators() {
@@ -22,5 +21,4 @@ func Address_Operators() {
 
 	fmt.Println("v5:", v5) // 5
 
-	log.Default()
 }
