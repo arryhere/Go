@@ -12,7 +12,7 @@ func Shorthand_Operators() {
 
 	// use shorthand assigment over normal assignment; it is a standard go practice
 
-	fmt.Println("v1: ", v1, ";", "typeOf: ", reflect.TypeOf(v1))
-	fmt.Println("v2: ", v2, ";", "typeOf: ", reflect.TypeOf(v2))
+	fmt.Println("v1: ", v1, ";", "typeOf: ", reflect.TypeOf(v1)) // v1:  55 ; typeOf:  int
+	fmt.Println("v2: ", v2, ";", "typeOf: ", reflect.TypeOf(v2)) // v2:  65 ; typeOf:  int
 
 }

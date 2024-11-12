@@ -5,7 +5,7 @@ import (
 	// variables "golang/02_variables"
 	// input "golang/03_input"
 	// operators "golang/04_operators"
-	conditionals "golang/05_conditionals"
+	// conditionals "golang/05_conditionals"
 )
 
 func main() {
@@ -19,5 +19,5 @@ func main() {
 
 	// operators.Shorthand_Operators()
 
-	conditionals.If_Else()
+	// conditionals.If_Else()
 }

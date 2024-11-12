@@ -15,12 +15,12 @@ func Variables_Datatypes() {
 	var v6 complex64 = complex(5, 5)
 	var v7 complex128 = complex(5, 5) // recommended over complex64
 
-	fmt.Println("v1: ", v1, ";", "typeOf: ", reflect.TypeOf(v1))
-	fmt.Println("v2: ", v2, ";", "typeOf: ", reflect.TypeOf(v2))
-	fmt.Println("v3: ", v3, ";", "typeOf: ", reflect.TypeOf(v3))
-	fmt.Println("v4: ", v4, ";", "typeOf: ", reflect.TypeOf(v4))
-	fmt.Println("v5: ", v5, ";", "typeOf: ", reflect.TypeOf(v5))
-	fmt.Println("v6: ", v6, ";", "typeOf: ", reflect.TypeOf(v6))
-	fmt.Println("v7: ", v7, ";", "typeOf: ", reflect.TypeOf(v7))
+	fmt.Println("v1: ", v1, ";", "typeOf: ", reflect.TypeOf(v1)) // v1:  true ; typeOf:  bool
+	fmt.Println("v2: ", v2, ";", "typeOf: ", reflect.TypeOf(v2)) // v2:  Hello ; typeOf:  string
+	fmt.Println("v3: ", v3, ";", "typeOf: ", reflect.TypeOf(v3)) // v3:  55 ; typeOf:  int
+	fmt.Println("v4: ", v4, ";", "typeOf: ", reflect.TypeOf(v4)) // v4:  55.55 ; typeOf:  float32
+	fmt.Println("v5: ", v5, ";", "typeOf: ", reflect.TypeOf(v5)) // v5:  55.55555555 ; typeOf:  float64
+	fmt.Println("v6: ", v6, ";", "typeOf: ", reflect.TypeOf(v6)) // v6:  (5+5i) ; typeOf:  complex64
+	fmt.Println("v7: ", v7, ";", "typeOf: ", reflect.TypeOf(v7)) // v7:  (5+5i) ; typeOf:  complex128
 
 }
