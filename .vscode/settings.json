@@ -12,14 +12,8 @@
   "workbench.editor.enablePreview": true,
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.scrollback": 100000000,
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
-  },
   "[go]": {
     "editor.defaultFormatter": "golang.go"
-  },
-  "[sql]": {
-    "editor.defaultFormatter": "mtxr.sqltools"
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
@@ -27,5 +21,5 @@
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
-  "indentRainbow.includedLanguages": ["yaml", "dockercompose"]
+  "indentRainbow.includedLanguages": ["yaml", "dockercompose"],
 }
