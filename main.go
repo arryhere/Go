@@ -4,7 +4,7 @@ import (
 	// intro "golang/01_intro"
 	// variables "golang/02_variables"
 	// input "golang/03_input"
-	operators "golang/04_operators"
+	// operators "golang/04_operators"
 	// conditionals "golang/05_conditionals"
 )
 
@@ -21,7 +21,7 @@ func main() {
 	// operators.Arithmetic_Operators()
 	// operators.Comparison_Operators()
 	// operators.Logical_Operators()
-	operators.Address_Operators()
+	// operators.Address_Operators()
 
 	// conditionals.If_Else()
 
