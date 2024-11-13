@@ -7,7 +7,8 @@ import (
 	// operators "golang/04_operators"
 	// conditionals "golang/05_conditionals"
 	// functions "golang/06_functions"
-	structs "golang/07_structs"
+	// structs "golang/07_structs"
+	interfaces "golang/08_interfaces"
 )
 
 func main() {
@@ -32,5 +33,7 @@ func main() {
 	// structs.Structs()
 	// structs.Anonymous_Structs()
 	// structs.Embedded_Structs()
-	structs.Struct_Methods()
+	// structs.Struct_Methods()
+
+	interfaces.Interfaces()
 }
