@@ -52,9 +52,7 @@ func getArea(area Area) float64 {
 }
 
 func getGeometry(geometry Geometry) (float64, float64) {
-
 	return geometry.area(), geometry.perimeter()
-
 }
 
 func Interfaces() {
