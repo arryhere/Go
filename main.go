@@ -1,12 +1,12 @@
 package main
 
-import (
-	// intro "golang/01_intro"
-	// variables "golang/02_variables"
-	// input "golang/03_input"
-	// operators "golang/04_operators"
-	conditionals "golang/05_conditionals"
-)
+import functions "golang/06_functions"
+
+// intro "golang/01_intro"
+// variables "golang/02_variables"
+// input "golang/03_input"
+// operators "golang/04_operators"
+// conditionals "golang/05_conditionals"
 
 func main() {
 	// intro.Intro()
@@ -23,6 +23,8 @@ func main() {
 	// operators.Logical_Operators()
 	// operators.Address_Operators()
 
-	conditionals.If_Else()
+	// conditionals.If_Else()
+
+	functions.Functions()
 
 }

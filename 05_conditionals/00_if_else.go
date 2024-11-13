@@ -18,7 +18,7 @@ func If_Else() {
 	}
 
 	if v := true; v {
-		fmt.Println("v is true !")
+		fmt.Println("v is true !") // "v is true !"
 	}
 
 }
