@@ -26,4 +26,8 @@ func Structs() {
 	}
 
 	fmt.Println("v:", v) // v: {44 Hello true {55 World}}
+
+	fmt.Println(v.value_3)         // true
+	fmt.Println(v.value_4)         // {55 World}
+	fmt.Println(v.value_4.value_2) // World
 }
