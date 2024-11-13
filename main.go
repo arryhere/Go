@@ -35,5 +35,6 @@ func main() {
 	// structs.Embedded_Structs()
 	// structs.Struct_Methods()
 
-	interfaces.Interfaces()
+	// interfaces.Interfaces()
+	interfaces.Interface_Arguments()
 }
