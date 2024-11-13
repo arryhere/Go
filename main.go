@@ -1,12 +1,12 @@
 package main
 
-import functions "golang/06_functions"
 
 // intro "golang/01_intro"
 // variables "golang/02_variables"
 // input "golang/03_input"
 // operators "golang/04_operators"
 // conditionals "golang/05_conditionals"
+// import functions "golang/06_functions"
 
 func main() {
 	// intro.Intro()
@@ -25,6 +25,6 @@ func main() {
 
 	// conditionals.If_Else()
 
-	functions.Functions()
+	// functions.Functions()
 
 }
