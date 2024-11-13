@@ -17,4 +17,8 @@ func If_Else() {
 		fmt.Println("Value is wierd !")
 	}
 
+	if v := true; v {
+		fmt.Println("v is true !")
+	}
+
 }
