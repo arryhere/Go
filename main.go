@@ -29,7 +29,8 @@ func main() {
 
 	// functions.Functions()
 
-	structs.Structs()
+	// structs.Structs()
 	// structs.Anonymous_Structs()
 	// structs.Embedded_Structs()
+	structs.Struct_Methods()
 }
