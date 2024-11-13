@@ -1,9 +1,9 @@
 package interfaces
 
-type SMS interface {
+type SMS struct {
 }
 
-type MMS interface {
+type MMS struct {
 }
 
 func Interface_Casting() {
