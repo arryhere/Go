@@ -14,5 +14,5 @@ func Functions() {
 	fmt.Println("sum:", sum(44.5, 232.56)) // sum: 277.06
 
 	var t1, t2 = multiple_return()
-	fmt.Println("multiple_return:", t1, t2)
+	fmt.Println("multiple_return:", t1, t2) // multiple_return: Hello World
 }

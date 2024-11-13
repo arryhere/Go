@@ -1,12 +1,14 @@
 package main
 
-
-// intro "golang/01_intro"
-// variables "golang/02_variables"
-// input "golang/03_input"
-// operators "golang/04_operators"
-// conditionals "golang/05_conditionals"
-// import functions "golang/06_functions"
+import (
+	// intro "golang/01_intro"
+	// variables "golang/02_variables"
+	// input "golang/03_input"
+	// operators "golang/04_operators"
+	// conditionals "golang/05_conditionals"
+	// functions "golang/06_functions"
+	// structs "golang/07_structs"
+)
 
 func main() {
 	// intro.Intro()
@@ -27,4 +29,6 @@ func main() {
 
 	// functions.Functions()
 
+	// structs.Structs()
+	// structs.Anonymous_Structs()
 }
