@@ -4,7 +4,7 @@ import "fmt"
 
 // Interface
 type Book interface {
-	getBookName() string
+	GetBookName() string
 }
 
 // Go Book
@@ -13,7 +13,7 @@ type GoBook struct {
 	goExtension string
 }
 
-func (gb GoBook) getBookName() string {
+func (gb GoBook) GetBookName() string {
 	return gb.name
 }
 
@@ -23,12 +23,12 @@ type RustBook struct {
 	rustExtension string
 }
 
-func (rb RustBook) getBookName() string {
+func (rb RustBook) GetBookName() string {
 	return rb.name
 }
 
 // Functions
-func getBookInfo(b Book) []string {
+func GetBookInfo(b Book) []string {
 	gb, gb_ok := b.(GoBook)
 	rb, rb_ok := b.(RustBook)
 
@@ -47,6 +47,6 @@ func Interface_Casting() {
 	myGoBook := GoBook{name: "LetUsGo", goExtension: ".go"}
 	myRustBook := GoBook{name: "TheRustLang", goExtension: ".rs"}
 
-	fmt.Println("Go Book Name:", getBookInfo(myGoBook))     // Go Book Name: [LetUsGo .go]
-	fmt.Println("Rust Book Name:", getBookInfo(myRustBook)) // Rust Book Name: [TheRustLang .rs]
+	fmt.Println("Go Book Name:", GetBookInfo(myGoBook))     // Go Book Name: [LetUsGo .go]
+	fmt.Println("Rust Book Name:", GetBookInfo(myRustBook)) // Rust Book Name: [TheRustLang .rs]
 }
