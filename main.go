@@ -36,5 +36,6 @@ func main() {
 	// structs.Struct_Methods()
 
 	// interfaces.Interfaces()
-	interfaces.Interface_Arguments()
+	// interfaces.Interface_Arguments()
+	interfaces.Interface_Casting()
 }
