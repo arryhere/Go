@@ -47,6 +47,6 @@ func Interface_Casting() {
 	myGoBook := GoBook{name: "LetUsGo", goExtension: ".go"}
 	myRustBook := GoBook{name: "TheRustLang", goExtension: ".rs"}
 
-	fmt.Println("Go Book Name:", getBookInfo(myGoBook))
-	fmt.Println("Rust Book Name:", getBookInfo(myRustBook))
+	fmt.Println("Go Book Name:", getBookInfo(myGoBook))     // Go Book Name: [LetUsGo .go]
+	fmt.Println("Rust Book Name:", getBookInfo(myRustBook)) // Rust Book Name: [TheRustLang .rs]
 }

@@ -8,7 +8,8 @@ import (
 	// conditionals "golang/05_conditionals"
 	// functions "golang/06_functions"
 	// structs "golang/07_structs"
-	interfaces "golang/08_interfaces"
+	// interfaces "golang/08_interfaces"
+	error_handling "golang/09_error_handling"
 )
 
 func main() {
@@ -37,5 +38,7 @@ func main() {
 
 	// interfaces.Interfaces()
 	// interfaces.Interface_Arguments()
-	interfaces.Interface_Casting()
+	// interfaces.Interface_Casting()
+
+	error_handling.Error_Handling()
 }
