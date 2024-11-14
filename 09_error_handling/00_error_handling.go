@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func ParseInt(str string) int {
+func SafeParseInt(str string) int {
 	var value, error = strconv.Atoi(str)
 
 	if error != nil {
@@ -16,8 +16,8 @@ func ParseInt(str string) int {
 }
 
 func Error_Handling() {
-	res_1 := ParseInt("111")
-	res_2 := ParseInt("44G")
+	res_1 := SafeParseInt("111")
+	res_2 := SafeParseInt("44G")
 
 	fmt.Println("res_1:", res_1) // res_1: 111
 	fmt.Println("res_2:", res_2) // res_2: -1
