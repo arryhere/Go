@@ -29,7 +29,6 @@ func (rb RustBook) getBookName() string {
 
 // Functions
 func getBookInfo(b Book) []string {
-
 	gb, gb_ok := b.(GoBook)
 	rb, rb_ok := b.(RustBook)
 
