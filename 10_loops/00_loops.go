@@ -2,13 +2,13 @@ package loops
 
 import "fmt"
 
-func MyLoop() {
+func myLoop() {
 	for i := 0; i <= 10; i++ {
 		fmt.Println("i:", i)
 	}
 }
 
-func MyForWhileLoop() {
+func myForWhileLoop() {
 	var data string = "start"
 	var i int = 0
 
@@ -23,7 +23,7 @@ func MyForWhileLoop() {
 }
 
 func Loops() {
-	MyLoop()
+	myLoop()
 	/*
 		i: 0
 		i: 1
@@ -38,7 +38,7 @@ func Loops() {
 		i: 10
 	*/
 
-	MyForWhileLoop()
+	myForWhileLoop()
 	/*
 		i: [0], data: [start]
 		i: [1], data: [start]
