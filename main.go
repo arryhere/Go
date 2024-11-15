@@ -49,5 +49,5 @@ func main() {
 	// loops.Break()
 	// loops.Continue()
 
-	slices_arrays.Slices()
+	slices_arrays.Arrays()
 }
