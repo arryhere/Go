@@ -63,5 +63,5 @@ func Variadic_Functions() {
 		return
 	}
 
-	fmt.Println("res:", multiplyValue) // res: 1239504
+	fmt.Println("res:", multiplyValue)
 }
