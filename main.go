@@ -6,12 +6,12 @@ import (
 	// input "golang/03_input"
 	// operators "golang/04_operators"
 	// conditionals "golang/05_conditionals"
-	functions "golang/06_functions"
+	// functions "golang/06_functions"
 	// structs "golang/07_structs"
 	// interfaces "golang/08_interfaces"
 	// error_handling "golang/09_error_handling"
 	// loops "golang/10_loops"
-	// slices_arrays "golang/11_slices_arrays"
+	slices_arrays "golang/11_slices_arrays"
 )
 
 func main() {
@@ -32,7 +32,7 @@ func main() {
 	// conditionals.If_Else()
 
 	// functions.Functions()
-	functions.Variadic_Functions()
+	// functions.Variadic_Functions()
 
 	// structs.Structs()
 	// structs.Anonymous_Structs()
@@ -51,5 +51,5 @@ func main() {
 	// loops.Continue()
 
 	// slices_arrays.Arrays()
-	// slices_arrays.Slices()
+	slices_arrays.Slices()
 }
