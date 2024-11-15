@@ -1,0 +1,22 @@
+// Folder-specific settings
+//
+// For a full list of overridable settings, and general information on folder-specific settings,
+// see the documentation: https://zed.dev/docs/configuring-zed#settings-files
+{
+  "base_keymap": "VSCode",
+  "theme": "Dracula",
+  "vim_mode": false,
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "cursor_shape": "bar",
+  "cursor_blink": true,
+  "autosave": "on_focus_change",
+  "format_on_save": "language_server",
+  "terminal": {
+    "dock": "bottom",
+    "cursor_shape": "bar",
+    "blinking": "on",
+    "button": true,
+    "font_size": 14
+  }
+}
