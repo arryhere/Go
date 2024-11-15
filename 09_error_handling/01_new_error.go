@@ -18,7 +18,7 @@ type User struct {
 
 func (user User) GetEmail() (string, error) {
 	if user.email == "" {
-		return "", errors.New(fmt.Sprintf("Invalid User email"))
+		return "", errors.New("Invalid User email")
 	} else {
 		return user.email, nil
 	}
