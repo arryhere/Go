@@ -4,13 +4,13 @@ import (
 	// intro "golang/01_intro"
 	// variables "golang/02_variables"
 	// input "golang/03_input"
-	// operators "golang/04_operators"
+	operators "golang/04_operators"
 	// conditionals "golang/05_conditionals"
 	// functions "golang/06_functions"
 	// structs "golang/07_structs"
 	// interfaces "golang/08_interfaces"
 	// error_handling "golang/09_error_handling"
-	loops "golang/10_loops"
+	// loops "golang/10_loops"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
 	// input.Input()
 
 	// operators.Shorthand_Operators()
-	// operators.Arithmetic_Operators()
+	operators.Arithmetic_Operators()
 	// operators.Comparison_Operators()
 	// operators.Logical_Operators()
 	// operators.Address_Operators()
@@ -44,5 +44,5 @@ func main() {
 	// error_handling.New_Error_1()
 	// error_handling.New_Error_2()
 
-	loops.Loops()
+	// loops.Loops()
 }
