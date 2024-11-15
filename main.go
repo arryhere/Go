@@ -52,5 +52,6 @@ func main() {
 
 	// slices_arrays.Arrays()
 	// slices_arrays.Slices()
-	slices_arrays.Exercise()
+	// slices_arrays.Exercise()
+	slices_arrays.MultiDimension_Slices()
 }
