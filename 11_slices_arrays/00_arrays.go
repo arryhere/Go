@@ -15,7 +15,16 @@ func Arrays() {
 		index 12 is out of bounds (>= 10)
 	*/
 
+	var v5 = v3[2:5]
+	var v6 = v3[:]
+	var v7 = v3[5:]
+	var v8 = v3[:5]
+
 	fmt.Println("v1:", v1) // v1: [0 0 0 0 0 0 0 0 0 0]
 	fmt.Println("v2:", v2) // v2: [1 2 3 4 5 0 0 0 0 0]
 	fmt.Println("v3:", v3) // v3: [1 2 3 4 5 6 7 8 9 10]
+	fmt.Println("v5:", v5) // v5: [3 4 5]
+	fmt.Println("v6:", v6) // v6: [1 2 3 4 5 6 7 8 9 10]
+	fmt.Println("v7:", v7) // v7: [6 7 8 9 10]
+	fmt.Println("v8:", v8) // v8: [1 2 3 4 5]
 }
