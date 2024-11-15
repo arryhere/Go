@@ -9,7 +9,8 @@ import (
 	// functions "golang/06_functions"
 	// structs "golang/07_structs"
 	// interfaces "golang/08_interfaces"
-	error_handling "golang/09_error_handling"
+	// error_handling "golang/09_error_handling"
+	loops "golang/10_loops"
 )
 
 func main() {
@@ -41,5 +42,7 @@ func main() {
 	// interfaces.Interface_Casting()
 
 	// error_handling.New_Error_1()
-	error_handling.New_Error_2()
+	// error_handling.New_Error_2()
+
+	loops.Loops()
 }
