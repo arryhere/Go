@@ -27,4 +27,7 @@ func Arrays() {
 	fmt.Println("v6:", v6) // v6: [1 2 3 4 5 6 7 8 9 10]
 	fmt.Println("v7:", v7) // v7: [6 7 8 9 10]
 	fmt.Println("v8:", v8) // v8: [1 2 3 4 5]
+
+	fmt.Println("length v8:", len(v8))   // length v8: 5
+	fmt.Println("capacity v8:", cap(v8)) // capacity v8: 10 [Explanation: v8 sliced from v3, where lenght of v3 is 10]
 }
