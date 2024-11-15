@@ -18,5 +18,4 @@ func Slices() {
 	}
 
 	fmt.Println("a1:", a1) // a1: [1 2 3 10]
-
 }
