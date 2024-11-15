@@ -40,5 +40,6 @@ func main() {
 	// interfaces.Interface_Arguments()
 	// interfaces.Interface_Casting()
 
-	error_handling.String_Formatting()
+	// error_handling.New_Error_1()
+	error_handling.New_Error_2()
 }

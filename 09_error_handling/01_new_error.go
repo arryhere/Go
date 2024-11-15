@@ -28,7 +28,7 @@ func GetUserEmail(user IUser) (string, error) {
 	return user.GetEmail()
 }
 
-func String_Formatting() {
+func New_Error_1() {
 	user_1 := User{
 		firstName: "Foo",
 		lastName:  "Bar",
