@@ -10,7 +10,8 @@ import (
 	// structs "golang/07_structs"
 	// interfaces "golang/08_interfaces"
 	// error_handling "golang/09_error_handling"
-	loops "golang/10_loops"
+	// loops "golang/10_loops"
+	slices_arrays "golang/11_slices_arrays"
 )
 
 func main() {
@@ -46,5 +47,7 @@ func main() {
 
 	// loops.Loops()
 	// loops.Break()
-	loops.Continue()
+	// loops.Continue()
+
+	slices_arrays.Slices()
 }

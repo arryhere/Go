@@ -11,12 +11,19 @@
   "cursor_shape": "bar",
   "cursor_blink": true,
   "autosave": "on_focus_change",
-  "format_on_save": "language_server",
+  "format_on_save": "on",
+  "formatter": "language_server",
   "terminal": {
     "dock": "bottom",
     "cursor_shape": "bar",
     "blinking": "on",
     "button": true,
     "font_size": 14
+  },
+  "languages": {
+    "Markdown": {
+      "format_on_save": "on",
+      "formatter": "prettier"
+    }
   }
 }
