@@ -3,7 +3,7 @@ package slices_arrays
 import "fmt"
 
 func Slices() {
-	a1 := []int{} // slice
+	a1 := []int{} // slice - array without initial length value
 
 	for i := 1; i <= 10; i++ {
 		a1 = append(a1, i)
@@ -18,4 +18,9 @@ func Slices() {
 	}
 
 	fmt.Println("a1:", a1) // a1: [1 2 3 10]
+
+	/* make function */
+	slice_make := make([]bool, 5)
+
+	fmt.Println("slice_make:", slice_make) // slice_make: [false false false false false]
 }
