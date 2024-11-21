@@ -20,7 +20,7 @@ func Slices() {
 	fmt.Println("a1:", a1) // a1: [1 2 3 10]
 
 	/* make function */
-	slice_make := make([]bool, 5)
+	slice_make := make([]bool, 5) // use make function to create a slice with default type initial values
 
 	fmt.Println("slice_make:", slice_make) // slice_make: [false false false false false]
 }
