@@ -11,7 +11,7 @@ func Address_Operators() {
 	var v3 **int = &v2  // pointer to a pointer
 	var v4 ***int = &v3 // pointer to a pointer to a pointer
 
-	v5 := ***v4
+	v5 := ***v4 // Dereferencing
 
 	fmt.Println("v1:", v1) // v1: 5
 
