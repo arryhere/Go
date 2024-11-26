@@ -10,8 +10,8 @@ import (
 	// structs "golang/07_structs"
 	// interfaces "golang/08_interfaces"
 	// error_handling "golang/09_error_handling"
-	loops "golang/10_loops"
-	// slices_arrays "golang/11_slices_arrays"
+	// loops "golang/10_loops"
+	slices_arrays "golang/11_slices_arrays"
 )
 
 func main() {
@@ -49,10 +49,11 @@ func main() {
 	// loops.Loops()
 	// loops.Break()
 	// loops.Continue()
-	loops.Range()
+	// loops.Range()
 
 	// slices_arrays.Arrays()
 	// slices_arrays.Slices()
 	// slices_arrays.Exercise()
 	// slices_arrays.MultiDimension_Slices()
+	slices_arrays.Make()
 }
