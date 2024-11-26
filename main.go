@@ -11,7 +11,8 @@ import (
 	// interfaces "golang/08_interfaces"
 	// error_handling "golang/09_error_handling"
 	// loops "golang/10_loops"
-	slices_arrays "golang/11_slices_arrays"
+	// slices_arrays "golang/11_slices_arrays"
+	maps "golang/12_maps"
 )
 
 func main() {
@@ -55,5 +56,7 @@ func main() {
 	// slices_arrays.Slices()
 	// slices_arrays.Exercise()
 	// slices_arrays.MultiDimension_Slices()
-	slices_arrays.Make()
+	// slices_arrays.Make()
+
+	maps.Maps()
 }

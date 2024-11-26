@@ -17,8 +17,7 @@ func If_Else() {
 		fmt.Println("Value is wierd !")
 	}
 
-	if v := true; v {
+	if v := 3 > 2; v {
 		fmt.Println("v is true !") // "v is true !"
 	}
-
 }
