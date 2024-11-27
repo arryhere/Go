@@ -16,6 +16,16 @@ func selfOperation(fx func(x float64, y float64) float64) func(x float64) float6
 	}
 }
 
+/* */
+
+func run(x int) func(y int) func(z int) int {
+	return func(y int) func(z int) int {
+		return func(z int) int {
+			return x + y + z
+		}
+	}
+}
+
 func Currying() {
 	fx_square := selfOperation(_mul)
 	res_fx_square := fx_square(5)
@@ -25,4 +35,9 @@ func Currying() {
 
 	fmt.Println("res_fx_square:", res_fx_square) // res_fx_square: 25
 	fmt.Println("res_fx_double:", res_fx_double) // res_fx_double: 10
+
+	/* */
+
+	res := run(5)(5)(7)
+	fmt.Println("res:", res) // res: 17
 }
