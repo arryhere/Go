@@ -14,6 +14,7 @@ func Variables_Datatypes() {
 	var v5 float64 = 55.55555555 // recommended over float32
 	var v6 complex64 = complex(5, 5)
 	var v7 complex128 = complex(5, 5) // recommended over complex64
+	var v8 rune = 'c'                 // character [runes are synonymous with an int32 type]
 
 	fmt.Println("v1:", v1, ";", "typeOf:", reflect.TypeOf(v1)) // v1: true ; typeOf: bool
 	fmt.Println("v2:", v2, ";", "typeOf:", reflect.TypeOf(v2)) // v2: Hello ; typeOf: string
@@ -22,5 +23,6 @@ func Variables_Datatypes() {
 	fmt.Println("v5:", v5, ";", "typeOf:", reflect.TypeOf(v5)) // v5: 55.55555555 ; typeOf: float64
 	fmt.Println("v6:", v6, ";", "typeOf:", reflect.TypeOf(v6)) // v6: (5+5i) ; typeOf: complex64
 	fmt.Println("v7:", v7, ";", "typeOf:", reflect.TypeOf(v7)) // v7: (5+5i) ; typeOf: complex128
+	fmt.Println("v8:", v8, ";", "typeOf:", reflect.TypeOf(v8)) // v8: 99 ; typeOf: int32
 
 }

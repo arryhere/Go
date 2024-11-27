@@ -6,13 +6,13 @@ import (
 	// input "golang/03_input"
 	// operators "golang/04_operators"
 	// conditionals "golang/05_conditionals"
-	// functions "golang/06_functions"
+	functions "golang/06_functions"
 	// structs "golang/07_structs"
 	// interfaces "golang/08_interfaces"
 	// error_handling "golang/09_error_handling"
 	// loops "golang/10_loops"
 	// slices_arrays "golang/11_slices_arrays"
-	maps "golang/12_maps"
+	// maps "golang/12_maps"
 )
 
 func main() {
@@ -34,6 +34,9 @@ func main() {
 
 	// functions.Functions()
 	// functions.Variadic_Functions()
+	// functions.Higher_Order_Functions()
+	// functions.Currying()
+	functions.Defer()
 
 	// structs.Structs()
 	// structs.Anonymous_Structs()
@@ -58,5 +61,5 @@ func main() {
 	// slices_arrays.MultiDimension_Slices()
 	// slices_arrays.Make()
 
-	maps.Maps()
+	// maps.Maps()
 }
