@@ -20,17 +20,17 @@ func Defer() {
 
 	if int_value_input_error != nil {
 		fmt.Println("[Error]: int_value_input_error")
-		return
+		return // Defer will run here before return
 	}
 
 	if int_value > 0 {
 		fmt.Printf("int_value: [%v],  value greater than 0\n", int_value)
-		return
+		return // Defer will run here before return
 	} else if int_value < 0 {
 		fmt.Printf("int_value: [%v], value less than 0\n", int_value)
-		return
+		return // Defer will run here before return
 	} else {
 		fmt.Printf("int_value: [%v], value is 0\n", int_value)
-		return
+		return // Defer will run here before return
 	}
 }
