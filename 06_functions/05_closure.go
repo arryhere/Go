@@ -20,6 +20,6 @@ func CLosure() {
 	fmt.Println(fx("Hello")) // Hello
 	fmt.Println(fx("World")) // Hello World
 	fmt.Println(fx("and"))   // Hello World and
-	fmt.Println(fx("hello")) // Hello World and hello
-	fmt.Println(fx("GO !"))  // Hello World and hello GO !
+	fmt.Println(fx("Hello")) // Hello World and Hello
+	fmt.Println(fx("GO !"))  // Hello World and Hello GO !
 }
