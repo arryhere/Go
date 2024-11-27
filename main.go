@@ -35,8 +35,9 @@ func main() {
 	// functions.Functions()
 	// functions.Variadic_Functions()
 	// functions.Higher_Order_Functions()
-	functions.Currying()
+	// functions.Currying()
 	// functions.Defer()
+	functions.CLosure()
 
 	// structs.Structs()
 	// structs.Anonymous_Structs()
