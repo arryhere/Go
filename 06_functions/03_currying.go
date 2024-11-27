@@ -18,8 +18,8 @@ func selfOperation(fx func(x float64, y float64) float64) func(x float64) float6
 
 /* */
 
-func run(x int) func(y int) func(z int) int {
-	return func(y int) func(z int) int {
+func run(x int) func(int) func(int) int {
+	return func(y int) func(int) int {
 		return func(z int) int {
 			return x + y + z
 		}
