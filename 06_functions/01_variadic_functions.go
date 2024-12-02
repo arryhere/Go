@@ -9,10 +9,10 @@ import (
 	"strings"
 )
 
-func safeArgsInput() ([]int, error) {
+func safeArgsIntInput() ([]int, error) {
 	reader := bufio.NewReader(os.Stdin)
 
-	fmt.Print("Enter space separated arguments: ")
+	fmt.Print("Enter space separated integer arguments: ")
 	args_read_value, args_read_error := reader.ReadString('\n')
 	if args_read_error != nil {
 		return nil, args_read_error
@@ -49,7 +49,7 @@ func multiply(args ...int) (int, error) {
 }
 
 func Variadic_Functions() {
-	safeArgsInputValue, safeArgsInputError := safeArgsInput()
+	safeArgsInputValue, safeArgsInputError := safeArgsIntInput()
 
 	if safeArgsInputError != nil {
 		fmt.Println(safeArgsInputError)
@@ -63,5 +63,5 @@ func Variadic_Functions() {
 		return
 	}
 
-	fmt.Println("res:", multiplyValue)
+	fmt.Println("multiplyValue:", multiplyValue)
 }
