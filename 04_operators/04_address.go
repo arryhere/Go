@@ -19,6 +19,6 @@ func Address_Operators() {
 	fmt.Println("v3:", v3) // v3: 0x140000a4028
 	fmt.Println("v4:", v4) // v4: 0x14000110030
 
-	fmt.Println("v5:", v5) // 5
+	fmt.Println("v5:", v5) // v5: 5
 
 }
